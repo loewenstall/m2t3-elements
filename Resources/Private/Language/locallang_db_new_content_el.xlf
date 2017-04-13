@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2016-12-14T20:51:59+00:00" product-name="m2t3_elements">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.shop_item_title" xml:space="preserve">
+        <source>Shop Item</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.shop_item_description" xml:space="preserve">
+        <source>magento single shop item</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

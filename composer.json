@@ -1,0 +1,53 @@
+{
+  "name": "TeamNeustaGmbH/m2t3-elements",
+  "type": "typo3-cms-extension",
+  "description": "m2t3-elements",
+  "homepage": "http://www.team-neusta.de/",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "keywords": [
+    "TYPO3 CMS"
+  ],
+  "authors": [
+    {
+      "name": "Benjamin Kluge",
+      "email": "b.kluge@neusta.de"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://phabricator.neusta.de/diffusion/MTTYPOELASTIC/m-t-typo-elastictypo.git"
+    }
+  ],
+  "version": "1.0.2",
+  "autoload": {
+    "psr-4": {
+      "TeamNeustaGmbH\\M2T3\\Elements\\": "Classes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TeamNeustaGmbH\\M2T3\\Elements\\Tests\\": "Tests/",
+      "TYPO3\\CMS\\Core\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/core/Tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://phabricator.neusta.de/diffusion/MTTYPOELASTIC/m-t-typo-elastictypo.git"
+    }
+  ],
+  "require": {
+    "typo3/cms": ">=8.3.0",
+    "team-neusta-gmbh/m2t3-elastictypo": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.3.*"
+  }
+}

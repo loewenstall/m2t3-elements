@@ -1,0 +1,7 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:m2t3_elements/Configuration/TypoScript/Helper/ContentDataUid.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:m2t3_elements/Configuration/TypoScript/Helper/GetSingleContent.txt">
+
+tt_content.m2t3elements_shop_item = FLUIDTEMPLATE
+tt_content.m2t3elements_shop_item {
+    file = EXT:m2t3_elements/Resources/Private/Templates/TtContent/shop_item.html
+}

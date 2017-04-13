@@ -1,0 +1,11 @@
+[globalVar = GP:contentId > 0]
+	config.disableAllHeaderCode = 1
+	config.disablePrefixComment = 1
+	page >
+	content = PAGE
+	content.10 = COA_INT
+	content.10.10 = RECORDS
+	content.10.10.tables = tt_content
+	content.10.10.source.data = GP:contentId
+	content.10.10.source.intval = 1
+[global]

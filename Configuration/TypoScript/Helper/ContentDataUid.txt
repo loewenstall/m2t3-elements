@@ -1,0 +1,11 @@
+[globalVar = GP:contentDataUid > 0]
+	page.config.no_cache = 1
+	page.wrap = <div class="container">|</div>
+	page.10 >
+	page.10 = RECORDS
+	page.10 {
+		tables = tt_content
+		source.data = GP:contentDataUid
+		source.intval = 1
+	}
+[end]

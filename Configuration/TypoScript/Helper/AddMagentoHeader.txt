@@ -1,0 +1,2 @@
+page.headerData.10 = TEXT
+page.headerData.10.value = <!--#include virtual="/shop/index.php?m2t3=head" -->
