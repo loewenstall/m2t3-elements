@@ -45,7 +45,7 @@
   ],
   "require": {
     "typo3/cms": ">=8.3.0",
-    "team-neusta-gmbh/m2t3-elastictypo": "^1.0"
+    "TeamNeustaGmbH/m2t3-elastictypo": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "5.3.*"
