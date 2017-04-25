@@ -40,8 +40,8 @@
 
 - Needed Configuration for AdditionalConfiguration
 ```
-$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['magento_product_elastic']['magento_product_elastic']['index'] = 'magentypo';
-$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['magento_product_elastic']['magento_product_elastic']['type'] = 'product';
+$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['m2t3_elements']['magento_product_elastic']['index'] = 'magentypo';
+$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['m2t3_elements']['magento_product_elastic']['type'] = 'product';
 ```
 
 Explain:
