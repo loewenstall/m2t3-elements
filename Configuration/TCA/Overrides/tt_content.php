@@ -17,7 +17,6 @@ $tempColumns = [
             'config'  =>
                 [
                     'type'                             => 'text',
-                    'foreign_table'                    => 'elasticsearch_typo3_content',
                     'renderType' => 'elasticomplete',
                     'format' => 'html',
                     'rows' => 42,

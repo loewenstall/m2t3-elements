@@ -9,10 +9,6 @@
  * @license https://opensource.org/licenses/BSD-3-Clause  BSD-3-Clause License
  */
 
-$GLOBALS['TCA']['elasticsearch_typo3_content'] = [
-    'name' => 'example'
-];
-
 $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 $iconRegistry->registerIcon(
     'content-m2t3-single',
