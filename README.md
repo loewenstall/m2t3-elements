@@ -1,5 +1,7 @@
 # Work in Progress - M2T3 - TYPO3 Elements
 
+Provides Elements for extraction, i.e. by Typo3 and echos NGINX Server Side includes for fetching content from Magento.
+
 ## Requirements
 
 - php 7
@@ -93,4 +95,4 @@ to get js footer
 
 The magento page type can be used to create an direct link to the magento page
 
-The Magento content type can be used to place single shop items in TPYO3
+The Magento content type can be used to place single shop items in TYPO3
